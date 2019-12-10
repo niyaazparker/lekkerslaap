@@ -1,0 +1,16 @@
+@mixin heading-font {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  @mixin body-font {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: $grey-2;
+  }
+  @mixin bg {
+    background-size:auto auto;
+    background-position:center left;
+    background-repeat:no-repeat;
+  
+  }
+  
+  

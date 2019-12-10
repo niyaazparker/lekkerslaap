@@ -1,0 +1,33 @@
+body {
+  @include body-font;
+}
+a {
+  text-decoration: none;
+  &:hover {text-decoration: none;}
+}
+h1,h2,h3,h4,h5,h6 {
+  @include heading-font;
+}
+h2 {
+  font-size:20px; 
+  color: $orange-3;
+}
+
+button {
+  text-transform: uppercase; 
+  font-family: 'Source Sans Pro', sans-serif; 
+  font-weight: 600;
+}
+ul, ul li {
+  list-style-type: none;
+}
+.flexcenter {
+	display:flex;
+	flex-wrap:wrap;
+	text-align:center;
+  justify-content: center;
+}
+.flex-vert-center {
+  display: flex;
+  align-items: center;
+}

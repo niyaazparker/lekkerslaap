@@ -1,0 +1,35 @@
+// buttons
+.button-default {
+    color: white;
+    background-color: $orange-1;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    margin: 10px;
+    display: inline-block;
+    outline: none;
+    box-shadow: none;
+    border-right:0;
+    border-top:0;
+    border-bottom:0;
+    line-height: 20px;
+    border-left: 5px solid $orange-4;
+    &:hover,&:active,&:focus {
+      background: $orange-4;
+      border-color: $orange-1;
+      cursor: pointer;
+    }
+    .button-slanted-content {
+      -ms-transform: skewX(20deg);
+      -webkit-transform: skewX(20deg);
+      transform: skewX(20deg);  
+      display: inline-block;
+    }
+  }
+  
+  .button-slanted {
+    -ms-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+  }
+  

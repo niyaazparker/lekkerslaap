@@ -1,0 +1,101 @@
+@media (max-width: 991px) {
+    .button-default .button-slanted-content {
+        font-size: 14px;
+    }
+    .card section.est-summary p {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        margin-right: 30px;
+    }
+    .card .card-left .est-char ul li {
+        font-size: 8px;
+            i {
+                font-size: 12px;
+            }
+        }
+        .card .est-available {
+            font-size: 13px;
+        }
+    }
+
+@media (max-width: 768px) {
+    .card {
+        .card-left {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-right: 15px;
+            .carousel {
+                margin-left:0;
+              }
+              .est-char {
+                margin-left: 0px;
+                    ul li {
+                    font-size: 11px;
+                    i {
+                        font-size: 16px;
+                    }
+                }
+            } 
+        }
+        section {
+                header {
+                padding: 0 0 0px 10px;
+            }
+        }
+        section.est-summary {
+            padding: 0 0 0px 10px;
+            p {
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+                margin-right: 30px;
+            }
+        }
+        .est-amenities {
+            padding: 0 10px;
+            
+          }
+          .est-moreinfo {
+            position: relative;
+            bottom: 0px;
+        }
+        .est-price {
+            text-align: right;
+            margin: 5px 10px 10px;
+        }
+        .est-available {
+            position: relative;
+            padding: 0 10px;
+        }
+        .est-like {
+            display: none;
+        }
+        .rate-container {
+            display: flex;
+            align-items: center;
+            
+        }
+        .est-ratings {
+            text-align: right;
+            margin-right: 0;
+            margin: 0 auto;
+        }
+    }
+}
+@media (max-width: 500px) { 
+    .button-default .button-slanted-content {
+        font-size: 12px;
+    }
+    .card .est-price p {
+        font-size: 26px;
+    }
+    .card .card-left .est-char ul li {
+        font-size: 8px;
+        margin: 8px 2px;
+        i {
+            font-size: 12px;
+        }
+    }
+    .est-amenities {display: none;}
+}
